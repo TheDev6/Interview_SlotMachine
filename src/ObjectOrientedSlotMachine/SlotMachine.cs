@@ -12,7 +12,7 @@
             if (slotHandle == null) throw new ArgumentNullException(nameof(slotHandle));
             if (wheels.Count < 3)
             {
-                throw new Exception($"There must me a minmum of 3 values per Slot Wheel. {wheels.Count} were given."); 
+                throw new Exception($"There must me a minmum of 3 Slot Wheels. {wheels.Count} were given."); 
             }
 
             this.SlotHandle = slotHandle;
